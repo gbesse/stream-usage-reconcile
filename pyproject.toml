@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stream-usage-reconcile"
+version = "0.1.0a1"
+description = "FR: Réconcilier les consommations cumulées et les deltas de flux | EN: Reconcile cumulative usage and streaming deltas | ES: Conciliar consumo acumulado y deltas de flujo"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+stream-usage-reconcile = "stream_usage_reconcile.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["stream_usage_reconcile*"]

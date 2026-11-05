@@ -1,0 +1,30 @@
+{
+  "streams": [
+    {
+      "id": "a",
+      "mode": "cumulative",
+      "completed": true,
+      "events": [
+        {
+          "id": "1",
+          "tokens": 5
+        },
+        {
+          "id": "2",
+          "tokens": 10
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "mode": "delta",
+      "completed": false,
+      "events": [
+        {
+          "id": "1",
+          "tokens": 3
+        }
+      ]
+    }
+  ]
+}
